@@ -30,7 +30,6 @@ export default function Edit() {
       setDrapItem([...list]);
       dispatch({type: 'ADD_DRAP_LIST',drapItem:[...list]})
     }
-    console.log(drapItem, '===');
     const {rightMenu} = getRightMenu();
     const handleContextMenuDel = () => {
         if (rightMenu.status) {
@@ -73,7 +72,9 @@ export default function Edit() {
             <Content className={styles.content}>
                 <Scaleplate direction="up"/>
                 <MenuProvider id="menu_id">
-                  <ResultsShow drapItem = {drapItem} changeCardList={changeCardList}/>
+                  <div>
+                    <ResultsShow drapItem = {drapItem} changeCardList={changeCardList}/>
+                  </div>
                 </MenuProvider>
                 <Scaleplate direction="left"/>
                 <Configuration drapItem = {drapItem}/>

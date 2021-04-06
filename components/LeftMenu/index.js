@@ -55,8 +55,8 @@ export default function LeftMenu({setDrapItem,childRef}) {
     return <>
         <Tabs className={styles.tabs_menu} defaultActiveKey="2" tabPosition='left' size="small" style={{height: '100%'}}>
 			{
-				TabsList.map(({icon, key, title},index)=> {
-					return (<TabPane tab={icon} key={index}>
+				TabsList.map(({icon, key, title})=> {
+					return (<TabPane tab={icon} key={key}>
 					<h4 style={{margin:'20px 0'}}>{title}</h4>
                     <div className={styles.template_list}>
                         {template.map((value, i) => {
@@ -82,7 +82,7 @@ export default function LeftMenu({setDrapItem,childRef}) {
 				</TabPane>)
 				})
 			}
-			<DoubleLeftOutlined style={{marginRight:0,position:'absolute',bottom:'40px',left: '20px'}}/>
         </Tabs>
+		<DoubleLeftOutlined style={{marginRight:0,position:'absolute',bottom:'40px',left: '20px'}}/>
     </>
 }

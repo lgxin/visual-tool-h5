@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          H5-Dooring可视化编辑器
+          Visual-Tool-H5可视化编辑器
         </h1>
         <div className={styles.grid}>
           <a href="/edit" className={styles.card}>
