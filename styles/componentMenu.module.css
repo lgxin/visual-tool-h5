@@ -1,0 +1,25 @@
+
+.tabs_menu .ant-tabs-nav-list{
+    height:100%;
+}
+
+.flexible_icon{
+    position: absolute;
+    bottom:20px;
+}
+.template_list{
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+}
+.template_list>div{
+    width:48%;
+    margin-bottom: 10px;
+    border:1px solid #cccccc;
+}
+.template_list>div:hover{
+    border-color:pink;
+}
+.template_list>div:nth-child(odd){
+    margin-right:10px;
+}

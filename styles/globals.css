@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.componentMenu_tabs_menu__3IYgC .ant-tabs-tabpane{
+  padding: 0 10px 0 10px !important;
+}
+#form_editor .ant-input-number {
+  width: 42px;
+  height: 24px;
+  border: 1px solid #DBDBDB;
+}
+#form_editor .ant-input-number-input {
+  height: 20px;
+  line-height: 20px;
+  padding-left: 4px;
+}
+#form_editor .ant-form-item-control-input-content {
+  line-height: 14px;
+}
+#form_editor .ant-input, 
+#form_editor .ant-input-number, 
+#form_editor .ant-select-selector{
+  background-color: #f6f6f6;
+  width: 160px;
+}
+#form_editor .ant-input-number {
+  width: 70px;
+  height: 24px;
+  border: 1px solid #DBDBDB;
+}
+#form_editor .ant-form-item-control-input-content{
+  text-align: right;
+}
+.form_editor_drawer .ant-drawer-body{
+  overflow-x: hidden;
+}
+.picture_image_modal .ant-modal-content{
+  background-color: rgb(255,255,255,0);
+  box-shadow: inherit;
+}
+.picture_image_modal .picture_image{
+  cursor: url('/favicon.ico');
+}
+.picture_image_modal .picture_image::-webkit-scrollbar {
+  display: none;
+}
